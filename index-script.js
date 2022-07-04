@@ -64,6 +64,48 @@ function setupTabs () {
 			tabToActivate.classList.add("tabs-content--active");
 		})
 	})
+
+	document.querySelectorAll(".pogi-button").forEach(button => {
+		button.addEventListener("click", () => {
+			const sideBar = button.parentElement; 
+			const tabsContainer = sideBar.parentElement;
+			const tabNumber = button.dataset.forTab; 
+			const tabToActivate = tabsContainer.querySelector(`.pogi-content[data-tab="${tabNumber}"]`);
+		
+		
+			sideBar.querySelectorAll(".pogi-button").forEach(button => {
+				button.classList.remove("tabs-button--active");
+			});
+
+			tabsContainer.querySelectorAll(".pogi-content").forEach(tab => {
+				tab.classList.remove("tabs-content--active");
+			});
+
+			button.classList.add("tabs-button--active");
+			tabToActivate.classList.add("tabs-content--active");
+		})
+	})
+
+	document.querySelectorAll(".trickle-button").forEach(button => {
+		button.addEventListener("click", () => {
+			const sideBar = button.parentElement; 
+			const tabsContainer = sideBar.parentElement;
+			const tabNumber = button.dataset.forTab; 
+			const tabToActivate = tabsContainer.querySelector(`.trickle-content[data-tab="${tabNumber}"]`);
+		
+		
+			sideBar.querySelectorAll(".trickle-button").forEach(button => {
+				button.classList.remove("tabs-button--active");
+			});
+
+			tabsContainer.querySelectorAll(".trickle-content").forEach(tab => {
+				tab.classList.remove("tabs-content--active");
+			});
+
+			button.classList.add("tabs-button--active");
+			tabToActivate.classList.add("tabs-content--active");
+		})
+	})
 }
 
 document.addEventListener("DOMContentLoaded", () => {
