@@ -74,8 +74,9 @@
                             <select id="resolve-options">
                               <option value="resolve-book" selected="selected">book</option>
                               <option value="resolve-bold">bold</option>
-                              <option value="resole-italic">italic</option>
+                              <option value="resolve-italic">italic</option>
                             </select>
+                            <img src="assets/dropdown-arrow-11.svg" style="height:8px; width: auto; margin-top: 7px">
                         </div>
                         <ul>                   
                             <li data-axes="size" class="parent">
@@ -121,12 +122,13 @@
                           <option value="monobloc-bold">bold</option>
                           <option value="monobloc-mono">mono</option>
                         </select>
+                        <img src="assets/dropdown-arrow-11.svg" style="height:8px; width: auto; margin-top: 7px">
                     </div>
                     <ul>                   
                         <li data-axes="size" class="parent">
                             <div><h2 class="first">SIZE</h2></div>
                             <div>
-                              <input id="size-2" data-type="size" class="range axis-range menu brown-bckg" type="range" min="10" max="300" value="270">
+                              <input id="size-2" data-type="size" class="range axis-range menu brown-bckg" type="range" min="10" max="300" value="260">
                             </div>
                         </li>   
                     </ul>
@@ -138,15 +140,82 @@
                     <img src="assets/images/FIU_resolve/mitski-2.png" alt="mitski: laurel hell">
                     <img src="assets/images/FIU_resolve/mitski-3.png" alt="mitski: laurel hell">
                 </div>
+                </div>
 
-                </div>
                 <div class="yellow-box">
-                    <h1>ICING  <span>(wip)</span></h1>
-                    <button>type tester</button> <button>see on site</button> <button>font in use</button>
+                    <h1>POGI  <span>(wip)</span></h1>
+                    <button class="tabs-button pogi-button tabs-button--active" data-for-tab="5">type tester</button> 
+                    <button class="tabs-button pogi-button" data-for-tab="6">process</button>
+                    <button class="tabs-button">use on site</button> 
+               
+                <div class="tabs-content pogi-content tabs-content--active" data-tab="5">
+                    <div class="type-tester pogi-eatalic">
+                        <p contenteditable="true" id="tester-3" class="typetest"
+                        autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false">
+                            based on cursive on cakes but simpler. a very handsome and blobby ting.
+                        </p>
+                    </div>
+
+                    <div class="field parent">
+                        <label for="options"><h2 class="first">STYLE</h2></label>
+                        <select id="options" name="options">
+                          <option selected>eatalic</option>
+                        </select>
+                    </div>
+                    <ul>                   
+                        <li data-axes="size" class="parent">
+                            <div><h2 class="first">SIZE</h2></div>
+                            <div>
+                              <input id="size-3" data-type="size" class="range axis-range menu yellow-bckg" type="range" min="10" max="300" value="60">
+                            </div>
+                        </li>   
+                    </ul>
                 </div>
+
+
+                <div class="font-in-use tabs-content pogi-content" data-tab="6">
+                    <img src="assets/images/FIU_resolve/mitski-1.png" alt="mitski: laurel hell">
+                    <img src="assets/images/FIU_resolve/mitski-2.png" alt="mitski: laurel hell">
+                    <img src="assets/images/FIU_resolve/mitski-3.png" alt="mitski: laurel hell">
+                </div>
+                </div>
+
                 <div class="pink-box">
                     <h1>TRICKLE <span>(wip)</span></h1>
-                    <button>type tester</button> <button>see on site</button> <button>font in use</button>
+                    <button class="tabs-button trickle-button tabs-button--active" data-for-tab="7">type tester</button> 
+                    <button class="tabs-button trickle-button" data-for-tab="8">process</button>
+                    <button class="tabs-button">use on site</button> 
+               
+                <div class="tabs-content trickle-content tabs-content--active" data-tab="7">
+                    <div class="type-tester trickle">
+                        <p class="big-letter" contenteditable="true" id="tester-4" class="typetest"
+                        autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false">
+                            nope
+                        </p>
+                    </div>
+
+                    <div class="field parent">
+                        <label for="options"><h2 class="first">STYLE</h2></label>
+                        <select id="options" name="options">
+                          <option value="resolve-book" selected>regular</option>
+                        </select>
+                    </div>
+                    <ul>                   
+                        <li data-axes="size" class="parent">
+                            <div><h2 class="first">SIZE</h2></div>
+                            <div>
+                              <input id="size-4" data-type="size" class="range axis-range menu pink-bckg" type="range" min="10" max="300" value="260">
+                            </div>
+                        </li>   
+                    </ul>
+                </div>
+
+
+                <div class="font-in-use tabs-content trickle-content" data-tab="8">
+                    <img src="assets/images/FIU_resolve/mitski-1.png" alt="mitski: laurel hell">
+                    <img src="assets/images/FIU_resolve/mitski-2.png" alt="mitski: laurel hell">
+                    <img src="assets/images/FIU_resolve/mitski-3.png" alt="mitski: laurel hell">
+                </div>
                 </div>
             </article>
         </section>
@@ -162,11 +231,7 @@
                 </div>
                 <div style="right: 1em;">
                     <h2 class="first">
-<<<<<<< HEAD
                         <a href="archive.html">BUCKET</a> / <a href="info">INFO</a>
-=======
-                        <a href="archive.html">ARCHIVE</a> / <a href="info.html">INFO</a>
->>>>>>> parent of 188e283 (loading content)
                     </h2>
                 </div>
             </nav>
@@ -203,7 +268,7 @@
                         <video height="100%" controls>
                             <source src="assets/images/cjtype/220519_CJType-Typo22_commercial_audio.mp4" type="video/mp4">
                           Your browser does not support the video tag.
-                          </video>
+                        </video>
                         <img src="assets/images/cjtype/cjtype_1.png" alt="meat shop screen"> 
                         <img src="assets/images/cjtype/cjtype_4.png" alt="malasada screen"> 
                         <img src="assets/images/cjtype/cjtype_2.png" alt="döner kebab screen"> 
@@ -211,11 +276,7 @@
                     </div>
                     <div class="project-description">
                         <div class="synopsis">
-<<<<<<< HEAD
                             Embodying <a href="https://cjtype.com" target="_blank">CJ Type</a>’s lively, culturally adventurous and friendly values in a 15 second commercial for Typographics NYC 2022.
-=======
-                            Embodying CJ Type’s lively, culturally adventurous and friendly values in a 15 second commercial for Typographics NYC 2022.
->>>>>>> parent of 188e283 (loading content)
                             In the video CJ Type’s various released type families (Dunbar, Louvetter & Pennypacker) travel the world through the lens of food.
                             The video pulls from the idea of a shared plate that originates from CJ’s home state Hawaii, wherein people from all different backgrounds come together to share a meal.
                             The video was animated through frame by frame animation integrating the many type styles of each font and their different features/diacritics.
@@ -226,11 +287,7 @@
                                 <span>MOTION & ART DIRECTION:</span> Corinne Ang
                             </div>
                             <div>
-<<<<<<< HEAD
                                 <span>AUDIO:</span> <a href="https://thecjdunn.com" target="_blank">CJ Dunn</a>
-=======
-                                <span>AUDIO:</span> CJ Dunn
->>>>>>> parent of 188e283 (loading content)
                             </div>
                         </div>
                     </div>
@@ -240,7 +297,6 @@
 
                 <div>
                     <h1>KILDER “UNEARTH” <span class="date">2022</span></h1>
-<<<<<<< HEAD
                     <div class="image-bank" id="kilder">
                         <img src="assets/images/kilder/kilderlettering-11.jpg" alt="kilder: lettering">  
                         <img src="assets/images/kilder/kilder_love enough_covers_music platforms_145dpi.jpg" alt="kilder: single">
@@ -250,34 +306,18 @@
                     <div class="project-description">
                         <div class="synopsis">
                             Album and singles designs for <a href="https://www.thiskilder.com" target="_blank">Kilder</a>’s LP “UNEARTH” (2021/2022). 
-=======
-                    <div class="image-bank">
-                        <img src="assets/images/kilder/kilderlettering-11.jpg" alt="construction zone zine: flat">  
-                        <img src="assets/images/kilder/kilder_love enough_covers_music platforms_145dpi.jpg" alt="construction zone zine: detail">
-                        <img src="assets/images/kilder/final_kilder_unearth covers.jpg" alt="construction zone zine: fold detail"> 
-                    </div>
-                    <div class="project-description">
-                        <div class="synopsis">
-                            Album and singles designs for Kilder’s LP “UNEARTH” (2021/2022). 
->>>>>>> parent of 188e283 (loading content)
                             Visualising this act of digging through the notation language of excavation sites as a metaphor for unveiling the multiplicitous textures of his music.
+                            The lettering pulls from the textural qualities of engraved letters in stone to evoke the feeling of chipping away at rock.
                         </div>
                         <div class="credits">
                             <div>
                                 <span>DESIGN & LETTERING:</span> Corinne Ang
                             </div>
                             <div>
-<<<<<<< HEAD
                                 <span>PHOTOGRAPHY:</span> <a href="https://www.jaspercable-alexander.co.uk" target="_blank">Jasper Cable-Alexander</a>
                             </div>
                             <div>
                                 <span>CREATIVE DIRECTION:</span> <a href="https://www.thiskilder.com" target="_blank">Kilder</a> & Corinne Ang
-=======
-                                <span>PHOTOGRAPHY:</span> Jasper Cable-Alexander
-                            </div>
-                            <div>
-                                <span>CREATIVE DIRECTION:</span> Kilder & Corinne Ang
->>>>>>> parent of 188e283 (loading content)
                             </div>
                         </div>
                     </div>
@@ -285,7 +325,6 @@
 
                 <br> <br> <br> <br> 
 
-<<<<<<< HEAD
                 <div>
                     <h1>SUNDAE SCHOOL: FLOWERVERSE <span class="date">2022</span></h1>
                     <div class="image-bank" id="flowerverse">
@@ -330,28 +369,6 @@
                             </div>
                             <div>
                                 <span>ILLUSTRATION:</span> Corinne Ang, <a href="https://km-works.online" target="_blank">Kwangmoo Lee</a>
-=======
-                <div id="flowerverse">
-                    <h1>SUNDAE SCHOOL FLOWERVERSE <span class="date">2022</span></h1>
-                    <div class="image-bank">
-                        <img src="assets/images/construction-zone/constructionzone1.jpg" alt="construction zone zine: flat">  
-                        <img src="assets/images/construction-zone/constructionzone3.jpg" alt="construction zone zine: detail"> 
-                        <img src="assets/images/construction-zone/constructionzone5.jpg" alt="construction zone zine: fold detail"> 
-                    </div>
-                    <div class="project-description">
-                        <div class="synopsis">
-                            Branding, concept and packaging for Sundae School’s sub-brand “SUNDAE”. 
-                            Focusing on empowering the main ingredient of cannabis, Sundae takes the playful nature of Sundae School’s 
-                            gummies and strips away the bells and whistles to let the raw ingredients shine through (with the scientific
-                            precision of an honour roller).
-                        </div>
-                        <div class="credits">
-                            <div>
-                                <span>DESIGN & LETTERING:</span> Corinne Ang
-                            </div>
-                            <div>
-                                <span>ART DIRECTION:</span> Haeok Shin (Shin Shin), Kwangmoo Lee
->>>>>>> parent of 188e283 (loading content)
                             </div>
                         </div>
                     </div>
@@ -414,11 +431,11 @@
                     <h1>RISD YEARBOOK <span class="date">2021</span></h1>
                     <div class="image-bank"  id="yearbook">
                         <img src="assets/images/yearbook/yb-1.png" alt="yearbook cover">  
-                        <img src="assets/images/yearbook/yb-5.jpg" alt="Italian Trulli"> 
-                        <img src="assets/images/yearbook/yb-6.png" alt="Italian Trulli"> 
-                        <img src="assets/images/yearbook/yb-2.jpg" alt="Italian Trulli">
-                        <img src="assets/images/yearbook/yb-3.jpg" alt="Italian Trulli">
-                        <img src="assets/images/yearbook/yb-4.jpg" alt="Italian Trulli">
+                        <img src="assets/images/yearbook/yb-5.jpg" alt="yearbook interior student profile"> 
+                        <img src="assets/images/yearbook/yb-6.png" alt="yearbook inner cover and swiss binding"> 
+                        <img src="assets/images/yearbook/yb-2.jpg" alt="yearbook introduction">
+                        <img src="assets/images/yearbook/yb-3.jpg" alt="yearbook spread assortment">
+                        <img src="assets/images/yearbook/yb-4.jpg" alt="yearbook interior student profile">
                     </div>
                     <div class="project-description">
                         <div class="synopsis">
@@ -497,7 +514,6 @@
 
                 <br> <br> <br> <br> 
 
-<<<<<<< HEAD
                 <div>
                     <h1>BARANGAY <span class="date">2020/21</span></h1>
                     <div class="image-bank" id="barangay">
@@ -540,9 +556,6 @@
                 <br> <br> <br> <br> 
 
                 <div>
-=======
-                <div id="road tripping">
->>>>>>> parent of 188e283 (loading content)
                     <h1>ROADTRIPPING <span class="date">2019</span></h1>
                     <div class="image-bank"  id="road-tripping">
                         <img src="assets/images/roadtripping/" alt="roadtripping cover">  
