@@ -54,7 +54,18 @@
     font-family: "resolve-italic";
     src: url("Resolve-Italic.woff") format(woff),
          url("Resolve-Italic.otf") format(otf);
-        
+}
+
+@font-face {
+    font-family: "pogi";
+    src: url("Pogi-Regular.woff") format(woff),
+    url("Pogi-Regular.otf") format(otf);
+}
+
+@font-face {
+    font-family: "trickle-regular";
+    src: url("trickle-display.woff") format(woff),
+    url("trickle-display.otf") format(otf);
 }
 
 
@@ -383,7 +394,7 @@ p {
 }
 
 .big-letter {
-    font-size: 270px;
+    font-size: 260px;
     
 }
 
@@ -422,7 +433,7 @@ li {
 }
 
 .pogi-eatalic {
-    font-family: "pogi-eatalic";
+    font-family: "pogi";
 }
 
 .monobloc-reg {

@@ -72,6 +72,68 @@ document.addEventListener("DOMContentLoaded", () => {
 
 
 
+//to change the styling of fonts on the entire website
+const resolveButton = document.querySelector('.all-resolve')
+const monoblocButton = document.querySelector('.all-monobloc')
+const pogiButton = document.querySelector('.all-pogi')
+const trickleButton = document.querySelector('.all-trickle')
+
+$(document).ready(function() {
+	$(".all-resolve").click(function () {
+	  $("main").css("font-family", "resolve-italic");
+	  $("h1").css("font-family", "resolve-bold");
+	  $("h2").css("font-family", "resolve-book");
+	  $('span').css("font-family", "resolve-book");
+	  $('button').css("font-family", "resolve-book");
+	  $('select').css("font-family", "resolve-book");
+
+	  monoblocButton.classList.remove('tabs-button--active');
+	  pogiButton.classList.remove('tabs-button--active');
+	  trickleButton.classList.remove('tabs-button--active');
+	  resolveButton.classList.add('tabs-button--active');
+	});
+
+	$(".all-monobloc").click(function () {
+		$("main").css("font-family", "monobloc-sans");
+		$("h1").css("font-family", "monobloc-sans");
+		$("h2").css("font-family", "monobloc-mono");
+		$('span').css("font-family", "monobloc-mono");
+		$('button').css("font-family", "monobloc-mono");
+		$('select').css("font-family", "monobloc-mono");
+		resolveButton.classList.remove('tabs-button--active');
+		pogiButton.classList.remove('tabs-button--active');
+		trickleButton.classList.remove('tabs-button--active');
+		monoblocButton.classList.add('tabs-button--active');
+	  });
+
+	$(".all-pogi").click(function () {
+		$("main").css("font-family", "pogi");
+		$("h1").css("font-family", "pogi");
+		$("h2").css("font-family", "pogi");
+		$('span').css("font-family", "pogi");
+		$('button').css("font-family", "pogi");
+		$('select').css("font-family", "pogi");
+		resolveButton.classList.remove('tabs-button--active');
+		monoblocButton.classList.remove('tabs-button--active');
+		trickleButton.classList.remove('tabs-button--active');
+		pogiButton.classList.add('tabs-button--active');
+	});
+
+	$(".all-trickle").click(function () {
+		$("main").css("font-family", "trickle-regular");
+		$("h1").css("font-family", "trickle-regular");
+		$("h2").css("font-family", "trickle-regular");
+		$('span').css("font-family", "trickle-regular");
+		$('button').css("font-family", "trickle-regular");
+		$('select').css("font-family", "trickle-regular");
+		resolveButton.classList.remove('tabs-button--active');
+		monoblocButton.classList.remove('tabs-button--active');
+		pogiButton.classList.remove('tabs-button--active');
+		trickleButton.classList.add('tabs-button--active');
+	});
+
+});
+
 //style selection
 const resolveContent = document.querySelector('#resolve-content')
 

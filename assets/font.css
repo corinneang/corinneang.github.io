@@ -1,15 +1,13 @@
 @font-face {
-    font-family: 'Monobloc_Bold';
-    src:    url('Monobloc-Bold.woff') format('woff'),
-            url('Monobloc-Bold.woff2') format('woff2');
+    font-family: 'Pogi_Regular';
+    src:    ;
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
-    font-family: 'Monobloc_Light';
-    src:    url('Monobloc-Light.woff') format('woff'),
-            url('Monobloc-Light.woff2') format('woff2');
+    font-family: 'trickle_display';
+    src:    ;
     font-weight: normal;
     font-style: normal;
 }
