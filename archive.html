@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+        <!-- metadata -->
+        <meta name="title" content="Corinne Ang">
+        <meta name="description" content="Corinne Ang is a graphic designer and type designer based in Brooklyn, NY.">
+
+    <title>INFO</title>
+
+        <!-- all the diff favicons favicon-generator-->
+        <link rel="apple-touch-icon" sizes="57x57" href="assets/images/apple-icon-57x57.png">
+        <link rel="apple-touch-icon" sizes="60x60" href="assets/images/apple-icon-60x60.png">
+        <link rel="apple-touch-icon" sizes="72x72" href="assets/images/apple-icon-72x72.png">
+        <link rel="apple-touch-icon" sizes="76x76" href="assets/images/apple-icon-76x76.png">
+        <link rel="apple-touch-icon" sizes="114x114" href="assets/images/apple-icon-114x114.png">
+        <link rel="apple-touch-icon" sizes="120x120" href="assets/images/apple-icon-120x120.png">
+        <link rel="apple-touch-icon" sizes="144x144" href="assets/images/apple-icon-144x144.png">
+        <link rel="apple-touch-icon" sizes="152x152" href="assets/images/apple-icon-152x152.png">
+        <link rel="apple-touch-icon" sizes="180x180" href="assets/images/apple-icon-180x180.png">
+        <link rel="icon" type="image/png" sizes="192x192"  href="assets/images/android-icon-192x192.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="96x96" href="assets/images/favicon-96x96.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicon-16x16.png">
+        <link rel="manifest" href="assets/images/manifest.json">
+        <meta name="msapplication-TileColor" content="#ffffff">
+        <meta name="msapplication-TileImage" content="assets/images/ms-icon-144x144.png">
+        <meta name="theme-color" content="#ffffff">
+
+
+<!--css-->
+<link rel="stylesheet" href="assets/style.css">
+
+<!--javascript-->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+<script src="jquery.flip.min.js"></script>
+
+<script defer src="node_modules/swup/dist/swup.min.js"></script>
+<script defer src="archive-script.js"></script>
+
+</head>
+
+<body>
+    <main>
+        <section class="left-column" style="background: rgb(247, 247, 247)">
+            <nav>
+                <div>
+                    <a href="index.html"><h1 class="brown-box">CORINNE ANG</h1></a> 
+                    <h2 class="blue-text">type design +</h2>
+                </div>
+            </nav>
+
+            <article>
+               <div>
+                    <h1>FILTER</h1>
+                    <h2 id="myBtnContainer">
+                        <button class="green-text filter-button filter-button-active" onclick="filterSelection('all')">EVERYTHING EVERYWHERE (ALL)</button>
+                        <br>
+                        <button class="brown-text filter-button" onclick="filterSelection('branding')">branding</button>
+                        <br>
+                        <button class="pink-text filter-button" onclick="filterSelection('illustration')">illustration</button>
+                        <br>
+                        <button class="blue-text filter-button" onclick="filterSelection('installation')">installation</button>
+                        <br>
+                        <button class="green-text filter-button" onclick="filterSelection('lettering')">lettering</button>
+                        <br>
+                        <button class="pink-text filter-button" onclick="filterSelection('poster')">poster</button>
+                        <br>
+                        <button class="red-text filter-button" onclick="filterSelection('publication')">publication</button>
+                        <br>
+                        <button class="purple-text filter-button" onclick="filterSelection('self-published')">self-published</button>
+                        <br>
+                        <button class="blue-text filter-button" onclick="filterSelection('typography')">typeface</button>
+                        <br>
+                        <button class="brown-text filter-button" onclick="filterSelection('web')">web</button>
+                        
+                    </h2>
+                </div>
+
+            </article>
+        </section>
+
+        <section class="right-column">
+            <nav>
+                <div>
+                    <div class="parent">
+                        <img src='assets/monobloc-chair-11.svg' alt="sitting" style="height: 2em; margin-right:5px">
+                        <h2 class="first">@ NY, USA &#8596 HK &#8596 MNL, PHL</h2>
+                    </div>
+                    <h2><span class="red-text">graphic design</span>, <span class="green-text">lettering/custom type</span>, <span class="pink-text">illustration</span>, <span class="purple-text">yung ano</span></h2>
+                </div>
+                <div style="right: 1em;">
+                    <h2 class="first">
+                        <a href="archive.html" style="color: rgb(51, 47, 27, 0.5)">ARCHIVE</a> / <a href="info.html">INFO</a>
+                    </h2>
+                </div>
+            </nav>
+
+            <article>
+
+                <div class="parent archive">
+
+                    <img class="filter-item show typography" src="assets/images/archive/grapple2.jpg">
+                    <img class="filter-item show typography" src="assets/images/archive/grapple1.png">
+                    <img class="filter-item show typography" src="assets/images/archive/grapple3.gif">
+                    <img class="filter-item show typography" src="assets/images/archive/counteract1.gif">
+                    <img class="filter-item show typography" src="assets/images/archive/counteract2.jpg">
+    
+                    <img class="filter-item show installation" src="assets/images/archive/rpm9.jpg">
+                    <img class="filter-item show installation" src="assets/images/archive/rpm8.gif">
+                    <img class="filter-item show installation publication self-published" src="assets/images/archive/rpm7.png">
+                    <img class="filter-item show installation publication self-published" src="assets/images/archive/rpm6.png">
+                    <img class="filter-item show installation publication self-published" src="assets/images/archive/rpm5.png">
+                    <img class="filter-item show installation publication self-published" src="assets/images/archive/rpm4.png">
+                    <img class="filter-item show installation publication self-published poster" src="assets/images/archive/rpm2.png">
+                    <img class="filter-item show installation poster" src="assets/images/archive/rpm1.jpg">
+                    <img class="filter-item show installation web" src="assets/images/archive/rpm3.gif">
+    
+                    <img class="filter-item show publication self-published" src="assets/images/archive/haunted0.JPG">
+                    <img class="filter-item show publication self-published" src="assets/images/archive/haunted_1.png">
+                    <img class="filter-item show publication self-published" src="assets/images/archive/haunted_2.png">
+                    <img class="filter-item show publication self-published" src="assets/images/archive/haunted_3.png">
+                    <img class="filter-item show publication self-published" src="assets/images/archive/haunted_4.png">
+                    <img class="filter-item show publication self-published" src="assets/images/archive/haunted_5.png">
+                    <img class="filter-item show publication self-published" src="assets/images/archive/haunted_7.png">
+                    <img class="filter-item show publication self-published" src="assets/images/archive/haunted_8.png">
+    
+                    <img class="filter-item show illustration" src="assets/images/archive/collabcomic.jpg">
+    
+                    <img class="filter-item show poster illustration lettering" src="assets/images/archive/earthlydelights1.jpg">
+                    <img class="filter-item show lettering" src="assets/images/archive/earthlydelights2.jpg">
+    
+                    <img class="filter-item show publication self-published" src="assets/images/archive/tropicalburn14.png">
+                    <img class="filter-item show publication self-published" src="assets/images/archive/tropicalburn13.jpg">
+                    <img class="filter-item show publication self-published" src="assets/images/archive/tropicalburn1.jpg">
+                    <img class="filter-item show publication self-published" src="assets/images/archive/tropicalburn2.jpg">
+                    <img class="filter-item show publication self-published" src="assets/images/archive/tropicalburn3.jpg">
+                    <img class="filter-item show publication self-published" src="assets/images/archive/tropicalburn4.jpg">
+                    <img class="filter-item show publication self-published" src="assets/images/archive/tropicalburn5.png">
+                    <img class="filter-item show publication self-published" src="assets/images/archive/tropicalburn6.png">
+                    <img class="filter-item show publication self-published" src="assets/images/archive/tropicalburn7.png">
+                    <img class="filter-item show publication self-published" src="assets/images/archive/tropicalburn8.png">
+                    <img class="filter-item show publication self-published" src="assets/images/archive/tropicalburn9.png">
+                    <img class="filter-item show publication self-published" src="assets/images/archive/tropicalburn10.png">
+                    <img class="filter-item show publication self-published" src="assets/images/archive/tropicalburn11.png">
+                    <img class="filter-item show publication self-published" src="assets/images/archive/tropicalburn12.png">
+                    
+                    <img class="filter-item show lettering illustration" src="assets/images/archive/palentinesday1.jpg">
+                    <img class="filter-item show lettering illustration" src="assets/images/archive/palentinesday2.JPG">
+    
+                    <img class="filter-item show branding poster" src="assets/images/archive/gov-ball1.jpg">
+                    <img class="filter-item show branding poster" src="assets/images/archive/gov-ball2.jpg">
+                    <img class="filter-item show branding poster" src="assets/images/archive/gov-ball3.jpg">
+                    <img class="filter-item show branding poster" src="assets/images/archive/gov-ball4.jpg">
+                    <img class="filter-item show branding poster" src="assets/images/archive/gov-ball5.jpg">
+                    <img class="filter-item show branding poster" src="assets/images/archive/gov-ball6.jpg">
+                    <img class="filter-item show branding" src="assets/images/archive/gov-ball7.jpg">
+                    <img class="filter-item show branding" src="assets/images/archive/gov-ball8.jpg">
+                    <img class="filter-item show branding" src="assets/images/archive/gov-ball9.png">
+                    <img class="filter-item show branding" src="assets/images/archive/gov-ball10.png">
+                    <img class="filter-item show branding typography" src="assets/images/archive/gov-ball11.png">
+                    <img class="filter-item show branding" src="assets/images/archive/gov-ball12.gif">
+
+                    <img class="filter-item show lettering poster" src="assets/images/archive/cny2020.png">
+    
+                    <img class="filter-item show illustration" src="assets/images/archive/spam.jpg">
+    
+                </div>
+                
+            </article>
+
+        </section>
+    </main>
+
+</body>

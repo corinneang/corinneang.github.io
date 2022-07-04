@@ -1,0 +1,573 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+        <!-- metadata -->
+        <meta name="title" content="Corinne Ang">
+        <meta name="description" content="Corinne Ang is a graphic designer and type designer based in Brooklyn, NY.">
+
+    <title>CORINNE ANG</title>
+
+        <!-- all the diff favicons favicon-generator-->
+        <link rel="apple-touch-icon" sizes="57x57" href="assets/images/apple-icon-57x57.png">
+        <link rel="apple-touch-icon" sizes="60x60" href="assets/images/apple-icon-60x60.png">
+        <link rel="apple-touch-icon" sizes="72x72" href="assets/images/apple-icon-72x72.png">
+        <link rel="apple-touch-icon" sizes="76x76" href="assets/images/apple-icon-76x76.png">
+        <link rel="apple-touch-icon" sizes="114x114" href="assets/images/apple-icon-114x114.png">
+        <link rel="apple-touch-icon" sizes="120x120" href="assets/images/apple-icon-120x120.png">
+        <link rel="apple-touch-icon" sizes="144x144" href="assets/images/apple-icon-144x144.png">
+        <link rel="apple-touch-icon" sizes="152x152" href="assets/images/apple-icon-152x152.png">
+        <link rel="apple-touch-icon" sizes="180x180" href="assets/images/apple-icon-180x180.png">
+        <link rel="icon" type="image/png" sizes="192x192"  href="assets/images/android-icon-192x192.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="96x96" href="assets/images/favicon-96x96.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicon-16x16.png">
+        <link rel="manifest" href="assets/images/manifest.json">
+        <meta name="msapplication-TileColor" content="#ffffff">
+        <meta name="msapplication-TileImage" content="assets/images/ms-icon-144x144.png">
+        <meta name="theme-color" content="#ffffff">
+
+
+<!--css-->
+<link rel="stylesheet" href="assets/style.css">
+
+<!--javascript-->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+<script src="jquery.flip.min.js"></script>
+
+<script defer src="index-script.js"></script>
+</head>
+
+<body>
+    <main>
+        <section class="left-column">
+            <nav class="blue-box">
+                <div class="home">
+                    <a href="index.html"><h1 class="brown-box">CORINNE ANG</h1></a> 
+                    <h2>type design +</h2>
+                </div>
+            </nav>
+
+            <article class="type-design">
+                <div class="blue-box">
+                    <h1>RESOLVE</h1>
+          
+                        <button class="resolve-button tabs-button tabs-button--active" data-for-tab="1">type tester</button> 
+                        <button class="resolve-button tabs-button" data-for-tab="2">font in use</button>
+                        <button class="tabs-button">use on site</button> 
+                   
+                    <div class="tabs-content tabs-content--active resolve-content" data-tab="1">
+                        <div class="type-tester resolve-book" id="resolve-content">
+                            <p contenteditable="true" id="tester" class="typetest"
+                            autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false">
+                                Seemingly simplistic & common place. Bitter n’ sweet.
+                            </p>
+                        </div>
+
+                        <div class="field parent">
+                            <label for="options"><h2 class="first">STYLE</h2></label>
+                            <select id="resolve-options">
+                              <option value="resolve-book" selected="selected">book</option>
+                              <option value="resolve-bold">bold</option>
+                              <option value="resole-italic">italic</option>
+                            </select>
+                        </div>
+                        <ul>                   
+                            <li data-axes="size" class="parent">
+                                <div><h2 class="first">SIZE</h2></div>
+                                <div>
+                                  <input id="size" data-type="size" class="range axis-range menu" type="range" min="10" max="300" value="60">
+                                </div>
+                            </li>   
+                        </ul>
+                    </div>
+
+
+                    <div class="font-in-use tabs-content resolve-content" data-tab="2">
+                        <img src="assets/images/FIU_resolve/mitski-1.png" alt="mitski: laurel hell">
+                        <img src="assets/images/FIU_resolve/mitski-2.png" alt="mitski: laurel hell">
+                        <img src="assets/images/FIU_resolve/mitski-3.png" alt="mitski: laurel hell">
+                    </div>
+
+
+
+                    
+                </div>
+                <div class="brown-box">
+                    <h1>MONOBLOC</h1>
+                    
+                    <button class="tabs-button monobloc-button tabs-button--active" data-for-tab="3">type tester</button> 
+                    <button class="tabs-button monobloc-button" data-for-tab="4">font in use</button>
+                    <button class="tabs-button tabs-button--active">use on site</button> 
+               
+                <div class="tabs-content monobloc-content tabs-content--active" data-tab="3">
+                    <div class="type-tester" id="monobloc-content">
+                        <p class="big-letter" contenteditable="true" id="tester-2" class="typetest"
+                        autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false">
+                            Re
+                        </p>
+                    </div>
+
+                    <div class="field parent">
+                        <label for="options"><h2 class="first">STYLE</h2></label>
+                        <select id="monobloc-options">
+                          <option value="monobloc-light">light</option>
+                          <option value="monobloc-reg" selected>regular</option>
+                          <option value="monobloc-bold">bold</option>
+                          <option value="monobloc-mono">mono</option>
+                        </select>
+                    </div>
+                    <ul>                   
+                        <li data-axes="size" class="parent">
+                            <div><h2 class="first">SIZE</h2></div>
+                            <div>
+                              <input id="size-2" data-type="size" class="range axis-range menu brown-bckg" type="range" min="10" max="300" value="270">
+                            </div>
+                        </li>   
+                    </ul>
+                </div>
+
+
+                <div class="font-in-use tabs-content monobloc-content" data-tab="4">
+                    <img src="assets/images/FIU_resolve/mitski-1.png" alt="mitski: laurel hell">
+                    <img src="assets/images/FIU_resolve/mitski-2.png" alt="mitski: laurel hell">
+                    <img src="assets/images/FIU_resolve/mitski-3.png" alt="mitski: laurel hell">
+                </div>
+
+                </div>
+                <div class="yellow-box">
+                    <h1>ICING  <span>(wip)</span></h1>
+                    <button>type tester</button> <button>see on site</button> <button>font in use</button>
+                </div>
+                <div class="pink-box">
+                    <h1>TRICKLE <span>(wip)</span></h1>
+                    <button>type tester</button> <button>see on site</button> <button>font in use</button>
+                </div>
+            </article>
+        </section>
+
+        <section class="right-column">
+            <nav>
+                <div>
+                    <div class="parent">
+                        <img src='assets/monobloc-chair-11.svg' alt="sitting" style="height: 2em; margin-right:5px">
+                        <h2 class="first">@ NY, USA &#8596 HK &#8596 MNL, PHL</h2>
+                    </div>
+                    <h2><span class="red-text">graphic design</span>, <span class="green-text">lettering/custom type</span>, <span class="pink-text">illustration</span>, <span class="purple-text">yung ano</span></h2>
+                </div>
+                <div style="right: 1em;">
+                    <h2 class="first">
+<<<<<<< HEAD
+                        <a href="archive.html">BUCKET</a> / <a href="info">INFO</a>
+=======
+                        <a href="archive.html">ARCHIVE</a> / <a href="info.html">INFO</a>
+>>>>>>> parent of 188e283 (loading content)
+                    </h2>
+                </div>
+            </nav>
+
+            <article class="graphic-design">
+                <div>
+                    <h1>CONSTRUCTION ZONE <span class="date">2022</span></h1>
+                    <div class="image-bank" id="construction-zone">
+                        <img src="assets/images/construction-zone/constructionzone1.jpg" alt="construction zone zine: flat">  
+                        <img src="assets/images/construction-zone/constructionzone3.jpg" alt="construction zone zine: detail"> 
+                        <img src="assets/images/construction-zone/construction-zone4.jpg" alt="construction zone zine: detail">
+                        <img src="assets/images/construction-zone/constructionzone5.jpg" alt="construction zone zine: fold detail"> 
+                    </div>
+                    <div class="project-description">
+                        <div class="synopsis">
+                            A zine exploring the seemingly dangerous future through the lens of chance, fate and precautions.
+                            The zine acts both as a fold up fortune teller and a poster allowing the reader to read their own fate through a non-linear publication. 
+                            It consists of hand lettering, collaged photography and illustrations.
+                            Printed as a 4 colour Risograph print.
+                        </div>
+                        <div class="credits">
+                            <div>
+                                <span>DESIGN, ILLUSTRATION, & LETTERING</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <br> <br> <br> <br> 
+
+                <div>
+                    <h1>CJ TYPE @ TYPOGRAPHICS <span class="date">2022</span></h1>
+                    <div class="image-bank"  id="cj-type">
+                        <video height="100%" controls>
+                            <source src="assets/images/cjtype/220519_CJType-Typo22_commercial_audio.mp4" type="video/mp4">
+                          Your browser does not support the video tag.
+                          </video>
+                        <img src="assets/images/cjtype/cjtype_1.png" alt="meat shop screen"> 
+                        <img src="assets/images/cjtype/cjtype_4.png" alt="malasada screen"> 
+                        <img src="assets/images/cjtype/cjtype_2.png" alt="döner kebab screen"> 
+                        <img src="assets/images/cjtype/cjtype_3.png" alt="bibingka screen"> 
+                    </div>
+                    <div class="project-description">
+                        <div class="synopsis">
+<<<<<<< HEAD
+                            Embodying <a href="https://cjtype.com" target="_blank">CJ Type</a>’s lively, culturally adventurous and friendly values in a 15 second commercial for Typographics NYC 2022.
+=======
+                            Embodying CJ Type’s lively, culturally adventurous and friendly values in a 15 second commercial for Typographics NYC 2022.
+>>>>>>> parent of 188e283 (loading content)
+                            In the video CJ Type’s various released type families (Dunbar, Louvetter & Pennypacker) travel the world through the lens of food.
+                            The video pulls from the idea of a shared plate that originates from CJ’s home state Hawaii, wherein people from all different backgrounds come together to share a meal.
+                            The video was animated through frame by frame animation integrating the many type styles of each font and their different features/diacritics.
+
+                        </div>
+                        <div class="credits">
+                            <div>
+                                <span>MOTION & ART DIRECTION:</span> Corinne Ang
+                            </div>
+                            <div>
+<<<<<<< HEAD
+                                <span>AUDIO:</span> <a href="https://thecjdunn.com" target="_blank">CJ Dunn</a>
+=======
+                                <span>AUDIO:</span> CJ Dunn
+>>>>>>> parent of 188e283 (loading content)
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <br> <br> <br> <br> 
+
+                <div>
+                    <h1>KILDER “UNEARTH” <span class="date">2022</span></h1>
+<<<<<<< HEAD
+                    <div class="image-bank" id="kilder">
+                        <img src="assets/images/kilder/kilderlettering-11.jpg" alt="kilder: lettering">  
+                        <img src="assets/images/kilder/kilder_love enough_covers_music platforms_145dpi.jpg" alt="kilder: single">
+                        <img src="assets/images/kilder/kilderlettering-2.png" alt="kilder: lettering detail"> 
+                        <img src="assets/images/kilder/final_kilder_unearth covers.jpg" alt="kilder:single"> 
+                    </div>
+                    <div class="project-description">
+                        <div class="synopsis">
+                            Album and singles designs for <a href="https://www.thiskilder.com" target="_blank">Kilder</a>’s LP “UNEARTH” (2021/2022). 
+=======
+                    <div class="image-bank">
+                        <img src="assets/images/kilder/kilderlettering-11.jpg" alt="construction zone zine: flat">  
+                        <img src="assets/images/kilder/kilder_love enough_covers_music platforms_145dpi.jpg" alt="construction zone zine: detail">
+                        <img src="assets/images/kilder/final_kilder_unearth covers.jpg" alt="construction zone zine: fold detail"> 
+                    </div>
+                    <div class="project-description">
+                        <div class="synopsis">
+                            Album and singles designs for Kilder’s LP “UNEARTH” (2021/2022). 
+>>>>>>> parent of 188e283 (loading content)
+                            Visualising this act of digging through the notation language of excavation sites as a metaphor for unveiling the multiplicitous textures of his music.
+                        </div>
+                        <div class="credits">
+                            <div>
+                                <span>DESIGN & LETTERING:</span> Corinne Ang
+                            </div>
+                            <div>
+<<<<<<< HEAD
+                                <span>PHOTOGRAPHY:</span> <a href="https://www.jaspercable-alexander.co.uk" target="_blank">Jasper Cable-Alexander</a>
+                            </div>
+                            <div>
+                                <span>CREATIVE DIRECTION:</span> <a href="https://www.thiskilder.com" target="_blank">Kilder</a> & Corinne Ang
+=======
+                                <span>PHOTOGRAPHY:</span> Jasper Cable-Alexander
+                            </div>
+                            <div>
+                                <span>CREATIVE DIRECTION:</span> Kilder & Corinne Ang
+>>>>>>> parent of 188e283 (loading content)
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <br> <br> <br> <br> 
+
+<<<<<<< HEAD
+                <div>
+                    <h1>SUNDAE SCHOOL: FLOWERVERSE <span class="date">2022</span></h1>
+                    <div class="image-bank" id="flowerverse">
+                        <img src="assets/images/flowerverse/flowerverse1.png" alt="flowerverse: mochi gummy room illustration">  
+                        <img src="assets/images/flowerverse/flowerverse2.png" alt="flowerverse: nightcap (indica) room illustration"> 
+                        <img src="assets/images/flowerverse/flowerverse3.png" alt="flowerverse: kickback (hybrid) room illustration"> 
+                        <video height="100%" controls>
+                            <source src="assets/images/flowerverse/flowerverse6.mp4" type="video/mp4">
+                          Your browser does not support the video tag.
+                        </video>
+                        <img src="assets/images/flowerverse/flowerverse4.jpg" alt="flowerverse: eureka (sativa) room in web space"> 
+                        <img src="assets/images/flowerverse/flowerverse5.jpg" alt="flowerverse: entrance room in web space"> 
+                    </div>
+                    <div class="project-description">
+                        <div class="synopsis">
+                            Creative direction and conceptualising illustrations for a 3D web experience embodying 
+                            different <a href="https://sundae.school" target="_blank">Sundae School</a> cannabis products as environments to immerse oneself in.
+                            Pulling cues and characters from the corresponding packaging while also directing and guiding a team to build
+                            out the <a href="https://flowerverse.sundae.flowers/pc/HTML5/SUNDAE_SCHOOL.html" target="_blank">web experience</a> and teaser video.
+                        </div>
+                        <div class="credits">
+                            <div>
+                                <span>CREATIVE DIRECTION:</span> Corinne Ang, <a href="https://audreyb.info" target="_blank">Audrey Bark</a>
+                            </div>
+                            <div>
+                                <span>EXECUTIVE PRODUCTION:</span> Dae Lim, Cindy Lim
+                            </div>
+                            <div>
+                                <span>MOTION DESIGN:</span> <a href="https://www.instagram.com/sejjjjun/" target="_blank">Sejun Park</a>
+                            </div>
+                            <div>
+                                <span>3D DESIGN:</span> <a href="https://masterworkstudio.com" target="_blank">Masterwork Studio</a>, <a href="https://www.instagram.com/sejjjjun/" target="_blank">Sejun Park</a>
+                            </div>
+                            <div>
+                                <span>VIDEO EDITING:</span> <a href="https://audreyb.info" target="_blank">Audrey Bark</a>
+                            </div>
+                            <div>
+                                <span>MUSIC:</span> <a href="https://www.instagram.com/primamiya/" target="_blank">Mamiya</a>
+                            </div>
+                            <div>
+                                <span>CREATIVE TEAM:</span> <a href="http://www.shin-shin.kr" target="_blank">Haeok Shin (Shin Shin)</a>, <a href="https://d13g0.nyc" target="_blank">Diego Herrera</a>
+                            </div>
+                            <div>
+                                <span>ILLUSTRATION:</span> Corinne Ang, <a href="https://km-works.online" target="_blank">Kwangmoo Lee</a>
+=======
+                <div id="flowerverse">
+                    <h1>SUNDAE SCHOOL FLOWERVERSE <span class="date">2022</span></h1>
+                    <div class="image-bank">
+                        <img src="assets/images/construction-zone/constructionzone1.jpg" alt="construction zone zine: flat">  
+                        <img src="assets/images/construction-zone/constructionzone3.jpg" alt="construction zone zine: detail"> 
+                        <img src="assets/images/construction-zone/constructionzone5.jpg" alt="construction zone zine: fold detail"> 
+                    </div>
+                    <div class="project-description">
+                        <div class="synopsis">
+                            Branding, concept and packaging for Sundae School’s sub-brand “SUNDAE”. 
+                            Focusing on empowering the main ingredient of cannabis, Sundae takes the playful nature of Sundae School’s 
+                            gummies and strips away the bells and whistles to let the raw ingredients shine through (with the scientific
+                            precision of an honour roller).
+                        </div>
+                        <div class="credits">
+                            <div>
+                                <span>DESIGN & LETTERING:</span> Corinne Ang
+                            </div>
+                            <div>
+                                <span>ART DIRECTION:</span> Haeok Shin (Shin Shin), Kwangmoo Lee
+>>>>>>> parent of 188e283 (loading content)
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <br> <br> <br> <br> 
+
+                <div>
+                    <h1>RISD GD SPRING SPEAKER SERIES <span class="date">2021</span></h1>
+                    <div class="image-bank" id="spring-speaker">
+                        <img src="assets/images/spring-speaker/overall_springspeaker2021_low.png" alt="36x24in poster">  
+                        <img src="assets/images/spring-speaker/insta_clara.mp4" alt="instagram animation: clara"> 
+                        <img src="assets/images/spring-speaker/instaworkslide_clara.jpg" alt="instagram post: clara work"> 
+                        <img src="assets/images/spring-speaker/springspeaker_detail1.png" alt="poster detail">
+                    </div>
+                    <div class="project-description">
+                        <div class="synopsis">
+                            The identity and collaterals for RISD Graphic Design’s Spring Lecture Series in the spring of 2021. 
+                            The identity thematically plays with the act of planting and cultivating seeds of thought for growth through the talks in correlation to the growth of plants in the spring.
+                            The illustrations pull forms from the flowers of each of the speaker’s home city and current location.
+                        </div>
+                        <div class="credits">
+                            <div>
+                                <span>DESIGN, ILLUSTRATION & ANIMATION</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <br> <br> <br> <br> 
+
+                <div>
+                    <h1>PASSING BY, PRESSING ON, MOVING FORWARDS <span class="date">2021</span></h1>
+                    <div class="image-bank" id="flipbook">
+                        <video height="100%" controls>
+                            <source src="assets/images/pbpomf/risoflipbook_site_low.mp4" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video> 
+                        <img src="assets/images/pbpomf/flipbookinsta_4.jpg" alt="Italian Trulli"> 
+                        <img src="assets/images/pbpomf/flipbook_0.png" alt="covers"> 
+                        <img src="assets/images/pbpomf/flipbookinsta2.jpg" alt="Italian Trulli">
+                    </div>
+                    <div class="project-description">
+                        <div class="synopsis">
+                                A hand drawn frame-by-frame flipbook exploring the commute as an allegory for growing up and moving between many different places while watching time and space pass by in a blur.
+                                Printed on the Risograph with 4 colours. [copies no longer available.]
+                        </div>
+                        <div class="credits">
+                            <div>
+                                <span>MOTION, PUBLICATION DESIGN & PRINTING</span> 
+                            </div>
+            
+                        </div>
+                    </div>
+                </div>
+
+                <br> <br> <br> <br> 
+
+                <div>
+                    <h1>RISD YEARBOOK <span class="date">2021</span></h1>
+                    <div class="image-bank"  id="yearbook">
+                        <img src="assets/images/yearbook/yb-1.png" alt="yearbook cover">  
+                        <img src="assets/images/yearbook/yb-5.jpg" alt="Italian Trulli"> 
+                        <img src="assets/images/yearbook/yb-6.png" alt="Italian Trulli"> 
+                        <img src="assets/images/yearbook/yb-2.jpg" alt="Italian Trulli">
+                        <img src="assets/images/yearbook/yb-3.jpg" alt="Italian Trulli">
+                        <img src="assets/images/yearbook/yb-4.jpg" alt="Italian Trulli">
+                    </div>
+                    <div class="project-description">
+                        <div class="synopsis">
+                            Publication design for the Rhode Island School of Design's yearbook for the class of 2021.
+                            It acts as the final physical gathering of the RISD class of 2021. 
+                            A book that celebrates a senior class pushing their artistic practices both in person and online. 
+                            It displays the individual interests of each student through pixel drawings they made and portraits they provided.
+                        </div>
+                        <div class="credits">
+                            <div>
+                                <span>DESIGN:</span> Corinne Ang, Julie Alter, Baijun Chen, Labelle Chang, Leo Horton, Madi Ko, Soleil Singh, Amanda Yang
+                            </div>
+                            <div>
+                                <span>CONCEPT:</span> Corinne Ang
+                            </div>
+                            <div>
+                                <span>PM:</span> Julie Alter, Labelle Chang
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <br> <br> <br> <br> 
+
+                <div>
+                    <h1>POINTS OF INFLECTION <span class="date">2021</span></h1>
+                    <div class="image-bank" id="poi">
+                        <img src="assets/images/poi/poi_1.png" alt="show catalogue"> 
+                        <img src="assets/images/poi/poi_cover.png" alt="logotype">  
+                        <img src="assets/images/poi/poi_tote.png" alt="totebag"> 
+                        <img src="assets/images/poi/poi_smalltilemock.png" alt="small modular posters">
+                        <img src="assets/images/poi/poi_gallery_2.png" alt="gallery labels">
+                        <img src="assets/images/poi/poi_cataloguefront.png" alt="catalogue front">
+                        <img src="assets/images/poi/Artboard 6.png" alt="large poster">
+                        <video height="100%" controls>
+                            <source src="assets/images/poi/poisite_compress.mp4" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
+                        <img src="assets/images/poi/poi_gallery_3.png" alt="gallery space">
+                        <img src="assets/images/poi/poi_animation.gif" alt="instagram promo animation">
+                        <img src="assets/images/poi/poi_gallery_1.png" alt="gallery title wall">
+                        
+                    </div>
+                    <div class="project-description">
+                        <div class="synopsis">
+                            Creating the identity, leading design and organizing a team to create collateral and carry out curation for RISD Graphic Design Senior Show (2021). 
+                            By looking at how 2020/2021 was a turning point in historical & cultural matters and in our personal lives,  
+                            Points of Inflection focuses on the way that we shape our paths and make connections (utilizing the physical manipulation of tape as a metaphor for this).
+                            The tape makes a reappearance in the form of tape paths created by each participating student that connect throughout the identity.
+                            <br><br>
+                            Displayed at Woods Gerry Gallery from March 19–23 2021.<br>
+                            Visit poi.risd.gd to read more and see an archive of the displayed works.
+                        </div>
+                        <div class="credits">
+                            <div>
+                                <span>DESIGN LEAD:</span> Corinne Ang
+                            </div>
+                            <div>
+                                <span>DESIGN:</span> Catherine Park, Javier Syquia
+                            </div>
+                            <div>
+                                <span>WEB:</span> Serena Shen, Nicholas Park
+                            </div>
+                            <div>
+                                <span>PRODUCTION:</span> Christie Zhong, Destiny Griesgraber, Eunice Hong
+                            </div>
+                            <div>
+                                <span>CURATION:</span> Ethan Murakami, Amanda Yang
+                            </div>
+                            <div>
+                                <span>MOTION:</span> Julia Chu
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <br> <br> <br> <br> 
+
+<<<<<<< HEAD
+                <div>
+                    <h1>BARANGAY <span class="date">2020/21</span></h1>
+                    <div class="image-bank" id="barangay">
+                        <img src="assets/images/barangay/barangay1.png" alt="barangay: exhibit">  
+                        <img src="assets/images/barangay/barangay10.png" alt="barangay: title vinyl">
+                        <img src="assets/images/barangay/barangay5.png" alt="barangay: stage 1-researching">
+                        <img src="assets/images/barangay/barangay9.png" alt="barangay: stage 1-researching"> 
+                        <img src="assets/images/barangay/barangay3.png" alt="barangay: stage 2-sketching">
+                        <img src="assets/images/barangay/barangay13.png" alt="barangay: stage 3-designing">
+                        <img src="assets/images/barangay/barangay7.png" alt="barangay: stage 3-designing">
+                        <img src="assets/images/barangay/barangay2.png" alt="barangay: stage 4-refining">
+                        <img src="assets/images/barangay/barangay12.png" alt="barangay: stage 4-refining">
+                        <img src="assets/images/barangay/brgyproof9.png" alt="barangay: stage 4-refining">
+                        <img src="assets/images/barangay/brgyproof8.png" alt="barangay: stage 4-refining">
+                        <img src="assets/images/barangay/brgyproof7.png" alt="barangay: stage 4-refining">
+                        <img src="assets/images/barangay/barangay8.png" alt="barangay: stage 4-refining">
+                        <img src="assets/images/barangay/brgyproof6.png" alt="barangay: stage 4-refining">
+                        <img src="assets/images/barangay/brgyproof1.png" alt="barangay: stage 4-refining">
+                        <img src="assets/images/barangay/brgyproof5.png" alt="barangay: stage 4-refining">
+                    </div>
+                    <div class="project-description">
+                        <div class="synopsis">
+                            An exploration into the cultural standpoint in designing typography resulting in two typefaces (Monobloc and Fluoral) and a physical exhibition.
+                            A barangay is the Filipino equivalent of a village. 
+                            If it takes a village to raise a child then the many stories of our past also become families in a village that shapes us. 
+                            In Barangay multiple typographic families are grown out of my intertwining narratives and they come together to tell the story of my upbringing as a Filipino-Chinese third culture kid.
+                            <br><br>
+                            Installed at RISD Graphic Design Commons from January 2021–March 2021.
+
+                        </div>
+                        <div class="credits">
+                            <div>
+                                <span>TYPE DESIGN & EXHIBIT DESIGN</span>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+
+                <br> <br> <br> <br> 
+
+                <div>
+=======
+                <div id="road tripping">
+>>>>>>> parent of 188e283 (loading content)
+                    <h1>ROADTRIPPING <span class="date">2019</span></h1>
+                    <div class="image-bank"  id="road-tripping">
+                        <img src="assets/images/roadtripping/" alt="roadtripping cover">  
+                    </div>
+                    <div class="project-description">
+                        <div class="synopsis">
+                            A publication venturing into American road trip culture and its relation with Americana. 
+                            The structure and visuals are based on the American highway, maps and the feeling of being on the road. 
+                            One main article runs throughout while minor articles interject just like pitstops on the long journey of a road trip.
+
+                        </div>
+                        <div class="credits">
+                            <div>
+                                <span>PUBLICATION DESIGN (PRINT & WEB)</span> 
+                            </div>
+                        
+                        </div>
+                    </div>
+                </div>
+
+                <br> <br> 
+
+            </article>
+
+        </section>
+    </main>
+
+</body>
