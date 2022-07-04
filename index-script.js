@@ -17,6 +17,22 @@
 
 	});
 
+	$('#size-3').on('input', function(){
+
+		let sizeValue = parseInt($(this).val()); //get slider input value
+		console.log(sizeValue);
+		$('#tester-3').css('font-size', sizeValue+'px');
+
+	});
+
+	$('#size-4').on('input', function(){
+
+		let sizeValue = parseInt($(this).val()); //get slider input value
+		console.log(sizeValue);
+		$('#tester-4').css('font-size', sizeValue+'px');
+
+	});
+
 
 
 
@@ -115,6 +131,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
 
 //to change the styling of fonts on the entire website
+
 const resolveButton = document.querySelector('.all-resolve')
 const monoblocButton = document.querySelector('.all-monobloc')
 const pogiButton = document.querySelector('.all-pogi')
@@ -123,7 +140,7 @@ const trickleButton = document.querySelector('.all-trickle')
 $(document).ready(function() {
 	$(".all-resolve").click(function () {
 	  $("main").css("font-family", "resolve-italic");
-	  $("h1").css("font-family", "resolve-bold");
+	  $("h1").css("font-family", "resolve-book");
 	  $("h2").css("font-family", "resolve-book");
 	  $('span').css("font-family", "resolve-book");
 	  $('button').css("font-family", "resolve-book");

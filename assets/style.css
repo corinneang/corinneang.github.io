@@ -286,6 +286,10 @@ button.brown-text:hover {
     margin-right: 8px;
 }
 
+.spacing-block {
+    height: 4vh;
+}
+
 .font-in-use > img {
     width: 100%;
     height: auto;
