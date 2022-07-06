@@ -821,6 +821,13 @@ button:hover {
     }
   }
 
+  @media screen and (min-height: 1000px) {
+    .image-bank {
+        height: 50vh;
+    }
+  }
+
+
   @media screen and (max-width: 800px) {
     body {
         overflow-x: hidden;
@@ -889,5 +896,9 @@ button:hover {
     .starting-content {
         height: 46em;
         padding-top: 6em;
+    }
+
+    .image-bank {
+        height: 50vh;
     }
   }
