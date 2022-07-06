@@ -860,6 +860,12 @@ button:hover {
         box-sizing: border-box;         /* Opera/IE 8+ */
     }
 
+    .type-tester {
+        height: 25em;
+        margin-bottom: 1.75em;
+        overflow: scroll;
+    }
+
     .left-column {
         width: 100vw;
         height: fit-content;
