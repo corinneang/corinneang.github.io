@@ -83,6 +83,11 @@ body {
     line-height: 1.15em;
     margin: 0px;
     padding: 0;
+    position: absolute;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    flex-wrap: wrap;
 }
 
 h1 {
@@ -330,7 +335,6 @@ video {
 .project-description {
     margin-top: 10px;
     display: flex;
-    flex-wrap: wrap;
 }
 
 .synopsis {
@@ -799,25 +803,54 @@ button:hover {
     }
   }
 
+  @media screen and (max-width: 1010px) {
+    .project-description {
+        margin-top: 10px;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column-reverse;
+    }
+
+    .credits {
+        margin-bottom: 10px;
+        width: 60%;
+    }
+
+    .synopsis {
+        width: 95%;
+    }
+  }
+
   @media screen and (max-width: 800px) {
+    body {
+        overflow-x: hidden;
+    }
+    
     main {
         position: absolute;
         display: flex;
         width: 100%;
         height: 100%;
         flex-wrap: wrap;
-        overflow: scroll;
+        overflow-y: scroll;
+        overflow-x:hidden;
     }
 
     .td-content {
-        width: 100vw;
+        width: 100%;
         height: 40em;
+        -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+        -moz-box-sizing: border-box;    /* Firefox, other Gecko */
+        box-sizing: border-box;         /* Opera/IE 8+ */
     }
 
 
     .gd-content {
-        width: 100vw;
+        width: 100%;
         height: fit-content;
+        -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+        -moz-box-sizing: border-box;    /* Firefox, other Gecko */
+        box-sizing: border-box;         /* Opera/IE 8+ */
     }
 
     .left-column {
@@ -851,5 +884,10 @@ button:hover {
 
     #filter-toggle-content {
         display: none;
+    }
+
+    .starting-content {
+        height: 46em;
+        padding-top: 6em;
     }
   }

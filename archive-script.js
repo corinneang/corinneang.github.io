@@ -47,6 +47,8 @@ for (var i = 0; i < btns.length; i++) {
   });
 }
 
+
+//toggle
 $(document).ready(function(){
   $("#filter-toggle").click(function(){
     $("#filter-toggle-content").toggle();
