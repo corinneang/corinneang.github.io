@@ -1,8 +1,8 @@
 @font-face {
     font-family: "monobloc-sans";
-    src: url("Monobloc-Regular.woff") format(woff),
-         url("Monobloc-Regular.woff2") format(woff2),
-         url("Monobloc-Regular.otf") format(otf);
+    src: url(../assets/Monobloc-Regular.woff) format(woff),
+         url(../assets/Monobloc-Regular.woff2) format(woff2),
+         url(../assets/Monobloc-Regular.otf) format(otf);
          font-weight: normal;
          font-style: normal;
 }
@@ -293,8 +293,7 @@ button.brown-text:hover {
     overflow-x: scroll;
     margin-top: 4px;
 
-    cursor: url('cursor.png'), url('cursor.svg'), auto;
-    cursor: url('cursor.png'), url('cursor.svg'), auto;
+    cursor: url('cursor.svg'), auto;
 }
 
 .image-bank > img {
@@ -891,6 +890,10 @@ button:hover {
         display: none;
     }
 
+    .archive > img {
+        width:100%;
+        height: auto;
+    }
     article {
         margin-top: 5em;
     }
