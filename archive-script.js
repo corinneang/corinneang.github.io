@@ -46,3 +46,9 @@ for (var i = 0; i < btns.length; i++) {
     this.className += " filter-button-active";
   });
 }
+
+$(document).ready(function(){
+  $("#filter-toggle").click(function(){
+    $("#filter-toggle-content").toggle();
+  });
+});

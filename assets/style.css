@@ -199,6 +199,17 @@ article.graphic-design > div {
     padding: 1em 0 1em 1em;
 }
 
+.td-content {
+    height: 40em;
+    padding: 1em;
+}
+
+
+.gd-content {
+    padding: 1em 0 1em 1em;
+}
+
+
 
 
 button {
@@ -775,4 +786,70 @@ button:hover {
   /* Handle on hover */
   ::-webkit-scrollbar-thumb:hover {
     display: none;
+  }
+
+  @media screen and (min-width: 801px) {
+    nav.narrow {
+        display: none;
+        position: fixed;
+    }
+
+    div.narrow {
+        display: none;
+    }
+  }
+
+  @media screen and (max-width: 800px) {
+    main {
+        position: absolute;
+        display: flex;
+        width: 100%;
+        height: 100%;
+        flex-wrap: wrap;
+        overflow: scroll;
+    }
+
+    .td-content {
+        width: 100vw;
+        height: 40em;
+    }
+
+
+    .gd-content {
+        width: 100vw;
+        height: fit-content;
+    }
+
+    .left-column {
+        width: 100vw;
+        height: fit-content;
+    }
+
+
+    .right-column {
+        width: 100vw;
+        height: fit-content;
+    }
+
+    nav.narrow {
+        display: block;
+        position: fixed;
+        height: 30px;
+    }
+
+    nav.wide {
+        display: none;
+    }
+
+    div.wide {
+        display: none;
+    }
+
+    article {
+        margin-top: 5em;
+    }
+
+    #filter-toggle-content {
+        display: none;
+    }
   }

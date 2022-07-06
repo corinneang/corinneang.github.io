@@ -38,17 +38,28 @@
 <!--javascript-->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
-<script src="jquery.flip.min.js"></script>
 
-<script defer src="node_modules/swup/dist/swup.min.js"></script>
 <script defer src="archive-script.js"></script>
 
 </head>
 
 <body>
     <main>
+        <nav class="narrow">
+            <div>
+                <div class="home parent">
+                    <img src='assets/monobloc-chair-11.svg' alt="sitting" style="height: 2em; margin-right:5px">
+                    <a href="index"><h1 class="brown-box" style="width:fit-content">CORINNE ANG</h1></a> 
+                </div>
+            </div>
+            <div style="right: 1em;">
+                <h2 class="first">
+                    <a href="bucket">BUCKET</a> / <a href="info">INFO</a>
+                </h2>
+            </div>
+        </nav>
         <section class="left-column" style="background: rgb(247, 247, 247)">
-            <nav>
+            <nav class="wide">
                 <div>
                     <a href="index"><h1 class="brown-box">CORINNE ANG</h1></a> 
                     <h2 class="blue-text">type design +</h2>
@@ -56,10 +67,36 @@
             </nav>
 
             <article>
-               <div>
+               <div class="wide">
                     <h1>FILTER</h1>
                     <h2 id="myBtnContainer">
                         <button class="green-text filter-button filter-button-active" onclick="filterSelection('all')">EVERYTHING EVERYWHERE (ALL)</button>
+                        <br>
+                        <button class="brown-text filter-button" onclick="filterSelection('branding')">branding</button>
+                        <br>
+                        <button class="pink-text filter-button" onclick="filterSelection('illustration')">illustration</button>
+                        <br>
+                        <button class="blue-text filter-button" onclick="filterSelection('installation')">installation</button>
+                        <br>
+                        <button class="green-text filter-button" onclick="filterSelection('lettering')">lettering</button>
+                        <br>
+                        <button class="pink-text filter-button" onclick="filterSelection('poster')">poster</button>
+                        <br>
+                        <button class="red-text filter-button" onclick="filterSelection('publication')">publication</button>
+                        <br>
+                        <button class="purple-text filter-button" onclick="filterSelection('self-published')">self-published</button>
+                        <br>
+                        <button class="blue-text filter-button" onclick="filterSelection('typography')">typeface</button>
+                        <br>
+                        <button class="brown-text filter-button" onclick="filterSelection('web')">web</button>
+                        
+                    </h2>
+                </div>
+
+                <div class="narrow parent">
+                    <div style="margin-right:10px;" id="filter-toggle"><a><h1>FILTER +</h1></a></div>
+                    <h2 class="first" id="filter-toggle-content">
+                        <button class="green-text filter-button" onclick="filterSelection('all')">EVERYTHING EVERYWHERE (ALL)</button>
                         <br>
                         <button class="brown-text filter-button" onclick="filterSelection('branding')">branding</button>
                         <br>
@@ -86,7 +123,7 @@
         </section>
 
         <section class="right-column">
-            <nav>
+            <nav class="wide">
                 <div>
                     <div class="parent">
                         <img src='assets/monobloc-chair-11.svg' alt="sitting" style="height: 2em; margin-right:5px">
