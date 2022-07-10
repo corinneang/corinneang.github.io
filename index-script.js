@@ -139,13 +139,12 @@ const trickleButton = document.querySelector('.all-trickle')
 
 $(document).ready(function() {
 	$(".all-resolve").click(function () {
-	  $("main").css("font-family", "resolve-italic");
-	  $("h1").css("font-family", "resolve-book");
-	  $("h2").css("font-family", "resolve-book");
-	  $('span').css("font-family", "resolve-book");
-	  $('button').css("font-family", "resolve-book");
-	  $('select').css("font-family", "resolve-book");
-
+	  $("main").css("font-family", "resolve italic");
+	  $("h1").css("font-family", "Resolve");
+	  $("h2").css("font-family", "Resolve");
+	  $('span').css("font-family", "Resolve");
+	  $('button').css("font-family", "Resolve");
+	  $('select').css("font-family", "Resolve");
 	  monoblocButton.classList.remove('tabs-button--active');
 	  pogiButton.classList.remove('tabs-button--active');
 	  trickleButton.classList.remove('tabs-button--active');
@@ -153,12 +152,12 @@ $(document).ready(function() {
 	});
 
 	$(".all-monobloc").click(function () {
-		$("main").css("font-family", "monobloc-sans");
-		$("h1").css("font-family", "monobloc-sans");
-		$("h2").css("font-family", "monobloc-mono");
-		$('span').css("font-family", "monobloc-mono");
-		$('button').css("font-family", "monobloc-mono");
-		$('select').css("font-family", "monobloc-mono");
+		$("main").css("font-family", "Monobloc");
+		$("h1").css("font-family", "Monobloc");
+		$("h2").css("font-family", "monobloc mono");
+		$('span').css("font-family", "monobloc mono");
+		$('button').css("font-family", "monobloc mono");
+		$('select').css("font-family", "monobloc mono");
 		resolveButton.classList.remove('tabs-button--active');
 		pogiButton.classList.remove('tabs-button--active');
 		trickleButton.classList.remove('tabs-button--active');
@@ -315,3 +314,4 @@ $(window).resize(resizeFn());
 $(document).ready(function(){
     $(window).trigger('resize');
 });
+
