@@ -140,7 +140,7 @@ const trickleButton = document.querySelector('.all-trickle')
 $(document).ready(function() {
 	$(".all-resolve").click(function () {
 	  $("main").css("font-family", "Resolve");
-	  $("main").css("font-style", "italic");
+	  $(".project-description").css("font-style", "italic");
 	  $("h1").css("font-family", "Resolve");
 	  $("h1").css("font-style", "normal");
 	  $("h2").css("font-family", "Resolve");
@@ -156,13 +156,13 @@ $(document).ready(function() {
 	});
 
 	$(".all-monobloc").click(function () {
-		$("main").css("font-family", "Monobloc");
-		$("main").css("font-style", "normal");
-		$("h1").css("font-family", "Monobloc");
-		$("h2").css("font-family", "monobloc mono");
-		$('span').css("font-family", "monobloc mono");
-		$('button').css("font-family", "monobloc mono");
-		$('select').css("font-family", "monobloc mono");
+		$("main").css("font-family", "Monobloc_Regular");
+		$(".project-description").css("font-style", "normal");
+		$("h1").css("font-family", "Monobloc_Regular");
+		$("h2").css("font-family", "Monobloc Mono _Regular");
+		$('span').css("font-family", "Monobloc Mono _Regular");
+		$('button').css("font-family", "Monobloc Mono _Regular");
+		$('select').css("font-family", "Monobloc Mono _Regular");
 		resolveButton.classList.remove('tabs-button--active');
 		pogiButton.classList.remove('tabs-button--active');
 		trickleButton.classList.remove('tabs-button--active');

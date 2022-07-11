@@ -1,0 +1,132 @@
+Web Fonts:
+**********
+
+Monobloc-Mono Regular.ufo
+-------------------------
+source: /Users/corinneang/Desktop/_work/barangay/monobloc/Monobloc-Mono Regular.ufo
+
+Build TTF
+'''''''''
+    path: /Users/corinneang/Documents/githubrepos/corinneang.github.io/assets/fonts/Monobloc_Mono_-Regular.ttf
+    Source is a UFO file. Generate TTF.
+        --------------------
+        
+        makeotf Report
+        
+        makeotf [Note] setting the USE_TYPO_METRICS OS/2 fsSelection bit 7 from fontinfo keyword.
+        makeotf [Note] setting the WEIGHT_WIDTH_SLOPE_ONLY OS/2 fsSelection bit 8 from fontinfo keyword.
+        makeotf [Note] setting the OBLIQUE OS/2 fsSelection bit 9 from fontinfo keyword.
+        Built release mode font '/privatetmpoudjcnmj.ttf' Revision 0.001
+        
+        --------------------
+
+Build WOFF (TTF)
+''''''''''''''''
+    path: /Users/corinneang/Documents/githubrepos/corinneang.github.io/assets/fonts/Monobloc_Mono_-Regular.woff
+
+Build WOFF2 (TTF)
+'''''''''''''''''
+    path: /Users/corinneang/Documents/githubrepos/corinneang.github.io/assets/fonts/Monobloc_Mono_-Regular.woff2
+
+
+Monobloc-Hairline.ufo
+---------------------
+source: /Users/corinneang/Desktop/_work/barangay/monobloc/Monobloc-Hairline.ufo
+
+Build TTF
+'''''''''
+    path: /Users/corinneang/Documents/githubrepos/corinneang.github.io/assets/fonts/Monobloc-Light.ttf
+    Source is a UFO file. Generate TTF.
+        --------------------
+        
+        makeotf Report
+        
+        makeotf [Note] setting the USE_TYPO_METRICS OS/2 fsSelection bit 7 from fontinfo keyword.
+        makeotf [Note] setting the WEIGHT_WIDTH_SLOPE_ONLY OS/2 fsSelection bit 8 from fontinfo keyword.
+        makeotf [Note] setting the OBLIQUE OS/2 fsSelection bit 9 from fontinfo keyword.
+        Built release mode font '/privatetmpujnt8io3.ttf' Revision 1.000
+        
+        --------------------
+
+Build WOFF (TTF)
+''''''''''''''''
+    path: /Users/corinneang/Documents/githubrepos/corinneang.github.io/assets/fonts/Monobloc-Light.woff
+
+Build WOFF2 (TTF)
+'''''''''''''''''
+    path: /Users/corinneang/Documents/githubrepos/corinneang.github.io/assets/fonts/Monobloc-Light.woff2
+
+
+Monobloc-Regularv2 2.ufo
+------------------------
+source: /Users/corinneang/Desktop/_work/barangay/monobloc/Monobloc-Regularv2 2.ufo
+
+Build TTF
+'''''''''
+    path: /Users/corinneang/Documents/githubrepos/corinneang.github.io/assets/fonts/Monobloc-Regular.ttf
+    Source is a UFO file. Generate TTF.
+        --------------------
+        
+        makeotf Report
+        
+        makeotf [Note] setting the USE_TYPO_METRICS OS/2 fsSelection bit 7 from fontinfo keyword.
+        makeotf [Note] setting the WEIGHT_WIDTH_SLOPE_ONLY OS/2 fsSelection bit 8 from fontinfo keyword.
+        makeotf [Note] setting the OBLIQUE OS/2 fsSelection bit 9 from fontinfo keyword.
+        Built release mode font '/privatetmp6fduymu_.ttf' Revision 0.002
+        
+        --------------------
+
+Build WOFF (TTF)
+''''''''''''''''
+    path: /Users/corinneang/Documents/githubrepos/corinneang.github.io/assets/fonts/Monobloc-Regular.woff
+
+Build WOFF2 (TTF)
+'''''''''''''''''
+    path: /Users/corinneang/Documents/githubrepos/corinneang.github.io/assets/fonts/Monobloc-Regular.woff2
+
+
+Monobloc-Bold.ufo
+-----------------
+source: /Users/corinneang/Desktop/_work/barangay/monobloc/Monobloc-Bold.ufo
+
+Build TTF
+'''''''''
+    path: /Users/corinneang/Documents/githubrepos/corinneang.github.io/assets/fonts/Monobloc-Bold.ttf
+    Source is a UFO file. Generate TTF.
+        --------------------
+        
+        makeotf Report
+        
+        makeotf [Note] setting the USE_TYPO_METRICS OS/2 fsSelection bit 7 from fontinfo keyword.
+        makeotf [Note] setting the WEIGHT_WIDTH_SLOPE_ONLY OS/2 fsSelection bit 8 from fontinfo keyword.
+        makeotf [Note] setting the OBLIQUE OS/2 fsSelection bit 9 from fontinfo keyword.
+        Built release mode font '/privatetmpj3rr7agp.ttf' Revision 0.001
+        
+        --------------------
+
+Build WOFF (TTF)
+''''''''''''''''
+    path: /Users/corinneang/Documents/githubrepos/corinneang.github.io/assets/fonts/Monobloc-Bold.woff
+
+Build WOFF2 (TTF)
+'''''''''''''''''
+    path: /Users/corinneang/Documents/githubrepos/corinneang.github.io/assets/fonts/Monobloc-Bold.woff2
+
+
+
+TTFAutohint options:
+********************
+addTTFAutoHintInfo     = False
+dwClearType            = False
+fallbackScript         = False
+gdiClearType           = True
+grayScale              = False
+hintRangeMaximum       = 50
+hintRangeMinimum       = 8
+hintingLimit           = 200
+noHintingLimit         = False
+noXHeightIncreaseLimit = False
+overRideFontLicense    = False
+preHinting             = False
+symbolFont             = False
+xHeightIncreaseLimit   = 14
