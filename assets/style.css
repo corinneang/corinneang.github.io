@@ -34,38 +34,44 @@
 }
 
 @font-face {
-    font-family: "Resolve";
-    src: url("fonts/Resolve-Book.woff") format(woff),
-         url("fonts/Resolve-Book.otf") format(otf);
-         font-weight: normal;
-         font-style: normal;
+    font-family: "resolve";
+    src: url('Resolve-Book.woff2');
+    font-weight: 400;
+    font-style: normal;
 }
 
 @font-face {
-    font-family: "ResolveBold";
-    src: url("fonts/Resolve-Bold.woff") format(woff), 
-         url("fonts/Resolve-Bold.woff2") format(woff),
-         url("fonts/Resolve-Bold.otf") format(otf);
-         font-weight: bold;
-         font-style: normal;
+  font-family: "resolve";
+  src: url('Resolve-Bold.woff2');
+  font-weight: 700;
+  font-style: normal;
 }
 
 @font-face {
-    font-family: "resolve italic";
-    src: url("fonts/Resolve-Italic.woff") format(woff),
-         url("fonts/Resolve-Italic.otf") format(otf);
+  font-family: "resolve italic";
+  src: url('Resolve-Italic.woff2');
+  font-weight: 400;
+  font-style: italic;
 }
 
-@font-face {
-    font-family: "pogi";
-    src: url("fonts/Pogi-Regular.woff") format(woff),
-    url("fonts/Pogi-Regular.otf") format(otf);
-}
 
 @font-face {
-    font-family: "trickle-regular";
-    src: url("fonts/trickle-display.woff") format(woff),
-    url("fonts/trickle-display.otf") format(otf);
+    font-family: 'Pogi_Regular';
+    src:    url('fonts/Pogi-Regular.woff') format('woff'),
+            url('fonts/Pogi-Regular.woff2') format('woff2'),
+            url('fonts/Pogi-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'Trickle_Regular';
+    src:    url('fonts/Trickle-Regular.woff') format('woff'),
+            url('fonts/Trickle-Regular.woff2') format('woff2'),
+            url('fonts/Trickle-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
 }
 
 
@@ -433,26 +439,6 @@ li {
 
 /* typeface styling */
 
-.resolve-book {
-    font-family: "Resolve";
-}
-
-.resolve-italic {
-    font-family: "resolve italic";
-}
-
-.resolve-bold {
-    font-family: "ResolveBold";
-}
-
-
-.trickle {
-    font-family: "trickle-regular";
-}
-
-.pogi-eatalic {
-    font-family: "pogi";
-}
 
 .monobloc-reg {
     font-family: "Monobloc";
