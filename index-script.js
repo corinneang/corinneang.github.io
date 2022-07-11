@@ -139,10 +139,14 @@ const trickleButton = document.querySelector('.all-trickle')
 
 $(document).ready(function() {
 	$(".all-resolve").click(function () {
-	  $("main").css("font-family", "Resolve Italic");
+	  $("main").css("font-family", "Resolve");
+	  $("main").css("font-style", "italic");
 	  $("h1").css("font-family", "Resolve");
+	  $("h1").css("font-style", "normal");
 	  $("h2").css("font-family", "Resolve");
+	  $("h2").css("font-style", "normal");
 	  $('span').css("font-family", "Resolve");
+	  $("span").css("font-style", "normal");
 	  $('button').css("font-family", "Resolve");
 	  $('select').css("font-family", "Resolve");
 	  monoblocButton.classList.remove('tabs-button--active');
@@ -153,6 +157,7 @@ $(document).ready(function() {
 
 	$(".all-monobloc").click(function () {
 		$("main").css("font-family", "Monobloc");
+		$("main").css("font-style", "normal");
 		$("h1").css("font-family", "Monobloc");
 		$("h2").css("font-family", "monobloc mono");
 		$('span').css("font-family", "monobloc mono");
