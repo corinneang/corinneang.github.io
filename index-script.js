@@ -150,8 +150,6 @@ $(document).ready(function() {
 	  $('button').css("font-family", "Resolve");
 	  $('select').css("font-family", "Resolve");
 	  monoblocButton.classList.remove('tabs-button--active');
-	  pogiButton.classList.remove('tabs-button--active');
-	  trickleButton.classList.remove('tabs-button--active');
 	  resolveButton.classList.add('tabs-button--active');
 	});
 
@@ -164,8 +162,6 @@ $(document).ready(function() {
 		$('button').css("font-family", "Monobloc Mono _Regular");
 		$('select').css("font-family", "Monobloc Mono _Regular");
 		resolveButton.classList.remove('tabs-button--active');
-		pogiButton.classList.remove('tabs-button--active');
-		trickleButton.classList.remove('tabs-button--active');
 		monoblocButton.classList.add('tabs-button--active');
 	  });
 
