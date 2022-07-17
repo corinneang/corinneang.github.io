@@ -54,3 +54,16 @@ $(document).ready(function(){
     $("#filter-toggle-content").toggle();
   });
 });
+
+
+//tool tip floows cursor
+var tooltip = document.querySelectorAll('.tooltiptext');
+
+document.addEventListener('mousemove', fn, false);
+
+function fn(e) {
+    for (var i=tooltip.length; i--;) {
+        tooltip[i].style.left = e.pageX + 'px';
+        tooltip[i].style.top = e.pageY + 'px';
+    }
+}

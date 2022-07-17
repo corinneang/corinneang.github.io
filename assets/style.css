@@ -364,6 +364,12 @@ button.brown-text:hover {
     margin-bottom: 10px;
 }
 
+.archive > span > img {
+    height: 18em;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
 .filter-item {
     display: none;
 }
@@ -924,6 +930,12 @@ button:hover {
         width:100%;
         height: auto;
     }
+
+    .archive > span > img {
+        width:100%;
+        height: auto;
+    }
+
     article {
         margin-top: 5em;
     }
@@ -947,3 +959,21 @@ button:hover {
         width: 90vw;
     }
   }
+
+
+  /*tool tip*/
+.tooltip:hover .tooltiptext {
+    display: block;
+}
+
+
+.tooltiptext {
+    display: none;
+    background: rgb(247, 247, 247);
+    margin-left: 15px;
+    padding: 8px;
+    position: absolute;
+    z-index: 1000;
+    border: 1px solid rgb(51, 47, 27);
+    max-width:20em;
+}
