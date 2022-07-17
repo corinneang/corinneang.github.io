@@ -755,6 +755,24 @@ button:hover {
 
 
 
+  /*tool tip*/
+  .tooltip:hover .tooltiptext {
+    display: block;
+}
+
+
+.tooltiptext {
+    display: none;
+    background: rgb(247, 247, 247);
+    margin-left: 15px;
+    padding: 8px;
+    position: absolute;
+    z-index: 1000;
+    border: 1px solid rgb(51, 47, 27);
+    max-width:20em;
+}
+
+
 
 /* one time tings */
 .home {
@@ -965,19 +983,3 @@ button:hover {
   }
 
 
-  /*tool tip*/
-.tooltip:hover .tooltiptext {
-    display: block;
-}
-
-
-.tooltiptext {
-    display: none;
-    background: rgb(247, 247, 247);
-    margin-left: 15px;
-    padding: 8px;
-    position: absolute;
-    z-index: 1000;
-    border: 1px solid rgb(51, 47, 27);
-    max-width:20em;
-}
