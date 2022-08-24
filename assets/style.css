@@ -217,8 +217,6 @@ nav {
 
 nav > div {
     position: fixed;
-    text-align: center;
-    width: 100%;
 }
 
 main {
@@ -435,7 +433,6 @@ video {
     scrollbar-width: none;
     width: 100%;
     height: 100%;
-    
 }
 
 .text-center {
@@ -447,6 +444,7 @@ video {
     line-height: 0.9em;
     padding: 0.1em 0 0.1em 0;
 }
+
 /*type tester*/
 
 .tabs-content {
