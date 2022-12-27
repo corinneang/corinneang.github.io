@@ -229,9 +229,10 @@ const projectId = function () {
 	});
 };
 document.getElementById('construction-zone').onmouseover = projectId;
+////document.getElementById('sundae-flowers').onmouseover = projectId;
+document.getElementById('kilder').onmouseover = projectId;
 document.getElementById('cj-type').onmouseover = projectId;
-//document.getElementById('kilder').onmouseover = projectId;
-document.getElementById('flowerverse').onmouseover = projectId;
+//document.getElementById('gretel-hanlyn').onmouseover = projectId;
 document.getElementById('spring-speaker').onmouseover = projectId;
 document.getElementById('flipbook').onmouseover = projectId;
 document.getElementById('yearbook').onmouseover = projectId;
