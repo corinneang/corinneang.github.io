@@ -384,7 +384,7 @@ video {
 }
 
 .project-description {
-    margin-top: 15px;
+    margin-top: 17px;
     display: flex;
 }
 
@@ -400,8 +400,9 @@ video {
 }
 
 .credits > div  {
-    margin-top: 7px;
+    margin-top: 5px;
 }
+
 
 .credits > div:nth-of-type(1)  {
     margin: 0;
@@ -875,7 +876,7 @@ button:hover {
 
   @media screen and (min-height: 1000px) {
     .image-bank {
-        height: 50vh;
+        height: 65vh;
     }
   }
 
@@ -898,6 +899,7 @@ button:hover {
     .project-description {
         font-size: 1.25em;
         line-height: 1.1em;
+        margin-top: 20px;
     }
 
     .project-description > span {
